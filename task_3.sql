@@ -1,4 +1,6 @@
 
-SELECT alx_book_store
-FROM INFORMATION_SCHEMA.TABLES
-WHERE TABLE_SCHEMA = 'alx_book_store';
+USE alx_book_store;
+
+SHOW TABLES;
+
+
