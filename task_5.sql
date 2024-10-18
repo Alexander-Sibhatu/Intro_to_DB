@@ -1,5 +1,5 @@
 USE alx_book_store
-INSERT INTO Customers(
+INSERT INTO Customer(
     customer_id
     customer_name,
     email,
