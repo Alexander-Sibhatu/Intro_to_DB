@@ -14,7 +14,7 @@ def create_database():
         if mydb.is_connected():
             # create a cursor object
             mycursor = mydb.cursor()
-            mycursor.execute("CREATE DATABE IF NOT EXISTS alx_book_store")
+            mycursor.execute("CREATE DATABASE IF NOT EXISTS alx_book_store")
             print("Database 'alx_book_store' created successfully")
         
     except Error as e:
